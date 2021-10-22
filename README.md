@@ -85,7 +85,7 @@ var arr = filledarrayBy( 'int32', minstd );
 // returns <Int32Array>
 ```
 
-#### filledarrayBy( length\[, dtype, ]clbk\[, thisArg] )
+#### filledarrayBy( length\[, dtype], clbk\[, thisArg] )
 
 Returns a filled array according to a provided callback function and having a specified `length`.
 
@@ -101,7 +101,7 @@ var arr2 = filledarrayBy( 5, 'uint8', constant );
 // returns <Uint8Array>[ 1, 1, 1, 1, 1 ]
 ```
 
-#### filledarrayBy( array\[, dtype, ]clbk\[, thisArg] )
+#### filledarrayBy( array\[, dtype], clbk\[, thisArg] )
 
 Creates a filled array from another array (or array-like object) according to a provided callback function.
 
@@ -132,7 +132,7 @@ var arr3 = filledarrayBy( arr1, 'int32', clbk3 );
 // returns <Int32Array>[ 3, 3, 3 ]
 ```
 
-#### filledarrayBy( iterable\[, dtype, ]clbk\[, thisArg] )
+#### filledarrayBy( iterable\[, dtype], clbk\[, thisArg] )
 
 Creates a filled array from an iterable according to a provided callback function.
 
@@ -154,7 +154,7 @@ var arr2 = filledarrayBy( it, 'float32', clbk );
 // returns <Float32Array>[ 1.0, 1.0, 1.0 ]
 ```
 
-#### filledarrayBy( buffer\[, byteOffset\[, length]]\[, dtype, ]clbk\[, thisArg] )
+#### filledarrayBy( buffer\[, byteOffset\[, length]]\[, dtype], clbk\[, thisArg] )
 
 Returns a filled [typed array][mdn-typed-array] view of an [`ArrayBuffer`][mdn-arraybuffer] according to a provided callback function.
 
