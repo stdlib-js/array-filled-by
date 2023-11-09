@@ -271,6 +271,13 @@ for ( i = 0; i < dt.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-filled`][@stdlib/array/filled]</span><span class="delimiter">: </span><span class="description">create a filled array.</span>
+-   <span class="package-name">[`@stdlib/array-typed`][@stdlib/array/typed]</span><span class="delimiter">: </span><span class="description">create a typed array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -349,6 +356,14 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [mdn-arraybuffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
+
+<!-- <related-links> -->
+
+[@stdlib/array/filled]: https://github.com/stdlib-js/array-filled
+
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
+
+<!-- </related-links> -->
 
 </section>
 
