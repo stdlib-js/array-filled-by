@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-14)
+## Unreleased (2026-06-16)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`3901886`](https://github.com/stdlib-js/stdlib/commit/3901886ff5ff6bdbcfd65ea52109fee0b0e1ff03) - **docs:** fix examples and descriptions in top-level `array` declarations [(#12375)](https://github.com/stdlib-js/stdlib/pull/12375) _(by Philipp Burckhardt, Athan Reines)_
 -   [`1ebdf55`](https://github.com/stdlib-js/stdlib/commit/1ebdf55506f7035fd461b57300609ae6cb432934) - **bench:** refactor to use string interpolation in `array/filled-by` [(#10319)](https://github.com/stdlib-js/stdlib/pull/10319) _(by Shubham)_
 
 </details>
@@ -24,8 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Philipp Burckhardt
 -   Shubham
 
 </section>
