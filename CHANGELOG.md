@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-15)
+## Unreleased (2026-08-22)
+
+<section class="features">
+
+### Features
+
+-   [`10fddbc`](https://github.com/stdlib-js/stdlib/commit/10fddbcafd82c5f87803171010b8b994b059c448) - add float16 dtype support to `array/filled-by` [(#14347)](https://github.com/stdlib-js/stdlib/pull/14347)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`10fddbc`](https://github.com/stdlib-js/stdlib/commit/10fddbcafd82c5f87803171010b8b994b059c448) - **feat:** add float16 dtype support to `array/filled-by` [(#14347)](https://github.com/stdlib-js/stdlib/pull/14347) _(by Samarth Kolarkar)_
 -   [`3901886`](https://github.com/stdlib-js/stdlib/commit/3901886ff5ff6bdbcfd65ea52109fee0b0e1ff03) - **docs:** fix examples and descriptions in top-level `array` declarations [(#12375)](https://github.com/stdlib-js/stdlib/pull/12375) _(by Philipp Burckhardt, Athan Reines)_
 -   [`1ebdf55`](https://github.com/stdlib-js/stdlib/commit/1ebdf55506f7035fd461b57300609ae6cb432934) - **bench:** refactor to use string interpolation in `array/filled-by` [(#10319)](https://github.com/stdlib-js/stdlib/pull/10319) _(by Shubham)_
 
@@ -25,10 +36,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
+-   Samarth Kolarkar
 -   Shubham
 
 </section>
